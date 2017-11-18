@@ -1,0 +1,28 @@
+{
+  "name": "loopback-model-extender",
+  "version": "0.1.0",
+  "description": "Extend built-in Loopback Model without defining new model.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/saggafarsyad/loopback-model-extender.git"
+  },
+  "keywords": [
+    "loopback",
+    "strongloop",
+    "model"
+  ],
+  "author": "Saggaf Arsyad <saggaf.arsyad@gmail.com> (https://saggafarsyad.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saggafarsyad/loopback-model-extender/issues"
+  },
+  "homepage": "https://github.com/saggafarsyad/loopback-model-extender#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "lodash": "^4.17.4"
+  }
+}
