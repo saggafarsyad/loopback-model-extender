@@ -221,5 +221,6 @@ const extendRelations = (model, relations) => {
     options.as = name
     // Set relation
     model[relationType](relatedModel, options)
+    debug('Applying relation to model %s, type: %s, options: %O', relatedModelName, relationType, options)
   }
 }
